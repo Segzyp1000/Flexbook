@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+.container {
+    background: rgb(195, 195, 231);
+    width: 100vw;
+}
+
+.navbar{
+    display: flex;
+    width:100%;
+    background: rgb(25, 25, 190);
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.link {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+
+}
+.link, ul, li {
+    margin-left: 25px;
+}
+.link, ul, li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+header {
+    background: rgb(125, 125, 227);
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+h3 {
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    height: 100%;
+    padding: 10rem;
+}
+
+img {
+    font-size:10px;
+    width:50%;
+    height: 50%;
+    margin-right:50px;
+    margin-top: 40px;
+
+}
+
+section {
+    display: flex;
+}
+
+.box {
+    background: rgb(34, 34, 216);
+    flex-direction: row;
+    margin: 20px;
+    width: 40vw;
+    color: #fff;
+    border-radius: 2rem;
+    height: 170px;
+}
+
+.whol {
+    display: flex;
+    padding: 10px;  
+}
+
+h2 {
+   font-size: 23px; 
+   font-weight: 600px;
+   padding: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+button {
+    background-color: rgb(89, 89, 214);
+    color: #fff;
+    margin: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border: #fff;
+        
+}
+
+button:hover {
+    background:rgb(159, 143, 174);
+    cursor: pointer;
+}
