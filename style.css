@@ -123,3 +123,23 @@ button:hover {
     background:rgb(159, 143, 174);
     cursor: pointer;
 }
+    
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100vw;
+    }
+
+    img {
+        display: none;
+    }
+    .whol {
+        display: flex;
+        padding: 10px;  
+        flex-direction: column;
+        margin: 5rem;
+       }
+    .box {
+        height: 200px;
+    }
+}
+
