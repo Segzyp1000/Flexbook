@@ -80,21 +80,23 @@ section {
 .box {
     background: rgb(34, 34, 216);
     flex-direction: row;
-    margin: 20px;
+    margin: 10px 70px;
     width: 40vw;
-    color: #fff;
+    color: #5b2d2d;
     border-radius: 2rem;
-    height: 170px;
+    height: 250px;
 }
 
 .whol {
     display: flex;
     padding: 10px;  
+
 }
 
 h2 {
    font-size: 23px; 
    font-weight: 600px;
+   color:#fff;
    padding: 10px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -103,12 +105,13 @@ p {
     padding: 5px;
     font-weight: 600;
     font-size: 15px;
+    color:#fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 button {
-    background-color: rgb(89, 89, 214);
+    background-color: rgb(149, 149, 226);
     color: #fff;
     margin: 1rem;
     border-radius: 10px;
@@ -132,14 +135,16 @@ button:hover {
     img {
         display: none;
     }
+
+    h1 { 
+        margin-left: 20px;
+    }
     .whol {
         display: flex;
         padding: 10px;  
         flex-direction: column;
         margin: 5rem;
        }
-    .box {
-        height: 200px;
-    }
+    
 }
 
